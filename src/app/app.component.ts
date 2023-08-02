@@ -9,10 +9,9 @@ import {HttpClient} from "@angular/common/http";
 export class AppComponent implements OnInit, OnDestroy {
     title = 'match-score-live';
     private socket: WebSocket | undefined;
-    private liveDataURL = '../assets/live-1v1.json';
     liveData: any;
 
-    constructor(private httpClient: HttpClient) {
+    constructor() {
         this.connect();
     }
 
@@ -32,21 +31,11 @@ export class AppComponent implements OnInit, OnDestroy {
             }, 1000);
         };
         this.socket.onerror = (error) => {
-            this.loadDefaultData()
             console.log(`WebSocket error: ${error}`);
         };
     }
 
-    private loadDefaultData() {
-        this.httpClient.get(this.liveDataURL).subscribe(
-            (resp: any) => {
-                this.liveData = resp
-            },
-        );
-    }
-
     ngOnInit(): void {
-        this.loadDefaultData()
     }
 
     ngOnDestroy() {
