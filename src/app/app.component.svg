@@ -1,0 +1,113 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="screen-live-score-match">
+        <g id="team-2">
+            <path id="font-panel" d="M1713 968L1109 967L1142.5 1008L1109 1047L1713 1048V968Z" fill="#190E36"/>
+            <rect id="team-color" width="20" height="80" transform="matrix(-1 0 0 1 1713 968)" fill="#7F64FF"/>
+            <g id="heads-2-team" filter="url(#filter0_d_25_7)">
+                <g id="head-2-1">
+                    <rect id="head-legend-2" width="100" height="100" transform="matrix(-1 0 0 1 1614 948)"
+                          fill="url(#pattern0)"/>
+                </g>
+            </g>
+            <g id="team-score">
+                <path id="rectangle-2" d="M1100 963L1124.5 1007L1100 1048L1075.5 1007L1100 963Z" fill="#7F64FF"/>
+                <g id="left">
+                    <path id="Rectangle 2" d="M1100 963L1124.5 1007L1100 1048L1135 1007L1100 963Z" fill="#190E36"/>
+                    <path id="Rectangle 4" d="M1107 1047L1129.5 1008L1107 967L1140.5 1008L1107 1047Z" fill="#7F64FF"/>
+                </g>
+                <g id="right">
+                    <path id="Rectangle 5" d="M1100 963L1075.5 1007L1100 1048L1065 1007L1100 963Z" fill="#190E36"/>
+                    <path id="Rectangle 6" d="M1093 1047L1070.5 1008L1093 967L1059.5 1008L1093 1047Z" fill="#7F64FF"/>
+                </g>
+            </g>
+            <text id="name-2-value" fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter"
+                  font-size="26" letter-spacing="0em"><tspan x="1171.35" y="1018.95">{{liveData.secondTeam.name}}</tspan></text>
+            <g id="banner-2-team">
+                <rect id="banner-2" x="1626" y="969" width="56" height="82" fill="url(#pattern1)"/>
+            </g>
+        </g>
+        <g id="team-1">
+            <path id="font-panel_2" d="M208 969L812 968L778.5 1009L812 1048L208 1049V969Z" fill="#190E36"/>
+            <rect id="team-color_2" x="208" y="969" width="20" height="80" fill="#7F64FF"/>
+            <g id="heads-1-team" filter="url(#filter1_d_25_7)">
+                <g id="head-1-1">
+                    <rect id="head-legend-1" x="297" y="956" width="100" height="100" fill="url(#pattern2)"/>
+                </g>
+            </g>
+            <g id="team-score_2">
+                <path id="rectangle-1" d="M821 964L845.5 1008L821 1049L796.5 1008L821 964Z" fill="#7F64FF"/>
+                <g id="left_2">
+                    <path id="Rectangle 2_2" d="M821 964L796.5 1008L821 1049L786 1008L821 964Z" fill="#190E36"/>
+                    <path id="Rectangle 4_2" d="M814 1048L791.5 1009L814 968L780.5 1009L814 1048Z" fill="#7F64FF"/>
+                </g>
+                <g id="right_2">
+                    <path id="Rectangle 5_2" d="M821 964L845.5 1008L821 1049L856 1008L821 964Z" fill="#190E36"/>
+                    <path id="Rectangle 6_2" d="M828 1048L850.5 1009L828 968L861.5 1009L828 1048Z" fill="#7F64FF"/>
+                </g>
+            </g>
+            <text id="name-1-value" fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter"
+                  font-size="26" letter-spacing="0em"><tspan x="432.348" y="1018.95">{{liveData.firstTeam.name}}</tspan></text>
+            <g id="banner-1-team">
+                <g id="banner-1" filter="url(#filter2_d_25_7)">
+                    <rect x="240" y="969" width="56" height="100"  fill="url(#pattern3)"
+                          shape-rendering="crispEdges"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <filter id="filter0_d_25_7" x="1504" y="942" width="120" height="120" filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                           result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="5"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.966667 0 0 0 0 0.966667 0 0 0 1 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_25_7"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_25_7" result="shape"/>
+        </filter>
+        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image0_25_7" transform="translate(0.0184366) scale(0.00147493)"/>
+        </pattern>
+        <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image1_25_7" transform="matrix(0.00526316 0 0 0.00372249 0 -0.00439702)"/>
+        </pattern>
+        <filter id="filter1_d_25_7" x="287" y="950" width="120" height="120" filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                           result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="5"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_25_7"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_25_7" result="shape"/>
+        </filter>
+        <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image2_25_7" transform="translate(0.0613306) scale(0.002079)"/>
+        </pattern>
+        <filter id="filter2_d_25_7" x="226" y="966" width="70.5217" height="108" filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                           result="hardAlpha"/>
+            <feOffset dx="-10" dy="1"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_25_7"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_25_7" result="shape"/>
+        </filter>
+        <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image3_25_7" transform="matrix(0.00542709 0 0 0.00306748 -0.0155734 0)"/>
+        </pattern>
+        <image id="image0_25_7" data-name="MORDEX_Fenrir_Skyforged_face.png" width="653" height="678" [attr.xlink:href]="liveData.secondTeam.oneFace"/>
+        <image id="image1_25_7" data-name="image.png" width="190" height="271" [attr.xlink:href]="liveData.secondTeam.banner"/>
+        <image id="image2_25_7" data-name="WU_SHANG_Aang_Skyforged_face.png" width="422" height="481" [attr.xlink:href]="liveData.firstTeam.oneFace"/>
+        <image id="image3_25_7" data-name="image.png" width="190" height="271" [attr.xlink:href]="liveData.firstTeam.banner"/>
+    </defs>
+</svg>

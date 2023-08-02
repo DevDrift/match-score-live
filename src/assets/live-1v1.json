@@ -1,0 +1,14 @@
+{
+  "firstTeam": {
+    "score": 1,
+    "name": "Team Number One",
+    "banner": "https://raw.githubusercontent.com/deemakuzovkin/bh-images/master/ranked-banners/Platinum 5.png",
+    "oneFace": "http://localhost:10001/ASURI_Awakened_Black_face.png"
+  },
+  "secondTeam": {
+    "score": 1,
+    "name": "Team Number Two",
+    "banner": "https://raw.githubusercontent.com/deemakuzovkin/bh-images/master/ranked-banners/Platinum 3.png",
+    "oneFace": "http://localhost:10001/LUCIEN_SpecOps_Goldforged_face.png"
+  }
+}
