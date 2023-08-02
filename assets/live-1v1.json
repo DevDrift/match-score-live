@@ -1,14 +1,19 @@
 {
   "firstTeam": {
-    "score": 1,
+    "banner": "https://raw.githubusercontent.com/deemakuzovkin/bh-images/main/ranked-banners/none.png",
+    "id": 0,
     "name": "Team Number One",
-    "banner": "https://raw.githubusercontent.com/deemakuzovkin/bh-images/master/ranked-banners/Platinum 5.png",
-    "oneFace": "http://localhost:10001/ASURI_Awakened_Black_face.png"
+    "oneFace": "http://localhost:10001/CASPIAN_Jester_Verdant_Bloom_face.png",
+    "oneSkinImage": "http://localhost:10001/CASPIAN_Jester_Verdant_Bloom.png",
+    "score": 0
   },
+  "matchId": 1,
   "secondTeam": {
-    "score": 1,
+    "banner": "https://raw.githubusercontent.com/deemakuzovkin/bh-images/master/ranked-banners/Gold 3.png",
+    "id": 0,
     "name": "Team Number Two",
-    "banner": "https://raw.githubusercontent.com/deemakuzovkin/bh-images/master/ranked-banners/Platinum 3.png",
-    "oneFace": "http://localhost:10001/LUCIEN_SpecOps_Goldforged_face.png"
+    "oneFace": "http://localhost:10001/ORION_Samurion_Classic_Colors_face.png",
+    "oneSkinImage": "http://localhost:10001/ORION_Samurion_Classic_Colors.png",
+    "score": 0
   }
 }
