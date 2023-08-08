@@ -21,10 +21,9 @@
                     <path id="Rectangle 6" d="M1093 1047L1070.5 1008L1093 967L1059.5 1008L1093 1047Z" fill="#7F64FF"/>
                 </g>
             </g>
-            <text id="name-2-value" fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter"
-                  font-size="26" letter-spacing="0em"><tspan x="1171.35" y="1018.95">{{liveData.secondTeam.name}}</tspan></text>
+            <text id="name-2-value" fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="26" text-anchor="middle" letter-spacing="0em"><tspan x="1330" y="1018.95">{{liveData.secondTeam.name}}</tspan></text>
             <g id="banner-2-team">
-                <rect id="banner-2" x="1626" y="969" width="56" height="82" fill="url(#pattern1)"/>
+                <rect id="banner-2" x="1626" y="966" width="56" height="82" fill="url(#pattern1)"/>
             </g>
         </g>
         <g id="team-1">
@@ -46,12 +45,10 @@
                     <path id="Rectangle 6_2" d="M828 1048L850.5 1009L828 968L861.5 1009L828 1048Z" fill="#7F64FF"/>
                 </g>
             </g>
-            <text id="name-1-value" fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter"
-                  font-size="26" letter-spacing="0em"><tspan x="432.348" y="1018.95">{{liveData.firstTeam.name}}</tspan></text>
+            <text id="name-1-value" fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="26" text-anchor="middle" letter-spacing="0em"><tspan x="580" y="1018.95">{{liveData.firstTeam.name}}</tspan></text>
             <g id="banner-1-team">
                 <g id="banner-1" filter="url(#filter2_d_25_7)">
-                    <rect x="240" y="969" width="56" height="100"  fill="url(#pattern3)"
-                          shape-rendering="crispEdges"/>
+                    <rect x="240" y="967" width="56" height="100"  fill="url(#pattern3)" shape-rendering="crispEdges"/>
                 </g>
             </g>
         </g>
